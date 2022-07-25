@@ -802,8 +802,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4906828391645816}
   - component: {fileID: 95237074988894122}
+  - component: {fileID: 6353183738267160205}
   - component: {fileID: 2112131920}
   - component: {fileID: 3816972430785965185}
+  - component: {fileID: 7680808541744925622}
   m_Layer: 0
   m_Name: Tortuga
   m_TagString: Untagged
@@ -838,7 +840,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774625739149480}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 0d3c605385d6d9547a1e3f24e8248962, type: 3}
+  m_Avatar: {fileID: 9000000, guid: d02b99183ddba5c4eb3a4e75bcec67e5, type: 2}
   m_Controller: {fileID: 9100000, guid: 1b58d63f942126347865fbdde70e67c5, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
@@ -849,6 +851,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6353183738267160205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774625739149480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39cbc972696359241b5c600a9040b95d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
 --- !u!114 &2112131920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -876,6 +891,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!54 &7680808541744925622
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774625739149480}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 6
+  m_AngularDrag: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &1822049695589022
 GameObject:
   m_ObjectHideFlags: 0
