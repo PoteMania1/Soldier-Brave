@@ -8,6 +8,7 @@ TagManager:
   - Jugador
   - Enemigo
   - Proyectil
+  - Pared
   layers:
   - Default
   - TransparentFX

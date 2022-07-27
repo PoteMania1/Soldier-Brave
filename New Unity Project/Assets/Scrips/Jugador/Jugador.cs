@@ -25,6 +25,15 @@ public class Jugador : MonoBehaviour
 
     void Update()
     {
+        RaycastHit hit;
+
+        if(Physics.Raycast(transform.position, Vector3.forward, out hit)){
+            float distancia = hit.distance;
+            string tag= hit.collider.gameObject.tag;
+            if(tag=="Pared"){
+                Debug.Log("Obj= " + tag + " a " + distancia + " de distancia");
+            }
+        }
        
     }
 

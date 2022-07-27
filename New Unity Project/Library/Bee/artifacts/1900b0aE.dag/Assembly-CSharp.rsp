@@ -356,6 +356,7 @@
 "Assets/Scrips/General/Colision-Jugador/Espada.cs"
 "Assets/Scrips/Jugador/Animaciones.cs"
 "Assets/Scrips/Jugador/Jugador.cs"
+"Assets/Scrips/Managers/ManagerSonido.cs"
 -langversion:9.0
 
 /deterministic

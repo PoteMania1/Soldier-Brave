@@ -16,6 +16,16 @@ public class Enemigo2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        RaycastHit hit;
+
+        if(Physics.Raycast(transform.position, Vector3.forward, out hit)){
+            float distancia = hit.distance;
+            
+            if(hit.transform.tag =="Jugador"){
+                Debug.Log("El jugador esta a " + distancia + " unidades ");
+            }
+        }
+
         LookAtJugador();
     }
 
