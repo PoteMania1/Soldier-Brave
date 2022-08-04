@@ -354,6 +354,7 @@
 "Assets/Scrips/Enemigo/Enemigo3.cs"
 "Assets/Scrips/General/Colision-Enemigo/AtacadoXJugador.cs"
 "Assets/Scrips/General/Colision-Jugador/Espada.cs"
+"Assets/Scrips/Items/Anillos.cs"
 "Assets/Scrips/Jugador/Animaciones.cs"
 "Assets/Scrips/Jugador/Jugador.cs"
 "Assets/Scrips/Jugador/Movimiento3er.cs"
